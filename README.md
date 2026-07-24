@@ -1,4 +1,5 @@
 Analyzing Public Health Trends from CDC Data (2011-2013)
+
 I analyzed various topics in the Public Health dataset by developing models for the years 2011–2013, developed a machine learning model based on CDC survey data, and observed the various trends across the topics I chose.
 The high cost of healthcare in the United States has caused many individuals to postpone or delay their medical treatment. As a result, untreated conditions can worsen over time, contributing to chronic illness and placing added pressures on families and public health systems. By recognizing which populations are most affected can help guide more effective distribution of healthcare resources.
 I used the data from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS) for my years: 2011–2023. After retraining my models and addressing any errors, my dataset was cleaned to include only accurate and relevant observations. However, during my initial analysis, I observed bimodal distributions as well as my linear models, with data points clustering at either very low or very high values rather than being evenly distributed.

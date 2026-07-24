@@ -1,11 +1,19 @@
 Analyzing Public Health Trends from CDC Data (2011-2013)
 
 I analyzed various topics in the Public Health dataset by developing models for the years 2011–2013, developed a machine learning model based on CDC survey data, and observed the various trends across the topics I chose.
+
 The high cost of healthcare in the United States has caused many individuals to postpone or delay their medical treatment. As a result, untreated conditions can worsen over time, contributing to chronic illness and placing added pressures on families and public health systems. By recognizing which populations are most affected can help guide more effective distribution of healthcare resources.
+
 I used the data from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS) for my years: 2011–2023. After retraining my models and addressing any errors, my dataset was cleaned to include only accurate and relevant observations. However, during my initial analysis, I observed bimodal distributions as well as my linear models, with data points clustering at either very low or very high values rather than being evenly distributed.
+
 My objective was to predict whether or not a specific group had values higher than a rate above the average values by using factors including location, year, sample size, and demographics, by evaluating classification models such as linear regressions and box plots. I evaluated the result by using the numerical values and categorical variables without the use of any statistical confidence, instead measuring the model’s performance throughout the data. 
+
 Out of all the charts in my data set, the one that stood out to me was the Bar chart which represented Skin Cancer from the years 2011-2013, portraying all of my chosen years alongside their designated colors, the territory of Guam revealing the highest Data value, and many of the locations showed how Skin cancer appeared to be relatively stable. 
+
 My model performed very biased across 2 demographic groups: Veteran Status and Disability Status. No, it was not fair. This was due to the overwhelming majority of the data towards Disability status and less majority towards the Veteran Status.
+
 Some of the models were produced in clusters rather than being evenly distributed, there were multiple errors in the code, and I was not able to locate where my data was being generated. I would have organized my visualizations more effectively; however, due to time constraints, I was unable to do so. They should not make broad generalizations about my populations, since the analysis is limited to specific variables, years, and constraints. 
+
 You can open my notebook in Google Collab, click the runtime, and click run all in the top menu.  There were no additional files that were needed. From start to finish, the notebook takes approximately 2-4 minutes to run. 
+
 My team included: Jiya Patel, Nirali, Patel, Aditii Karthik, and Nirvi Shah. Jiya contributed in conducting research for the years 2022, 2023, and 2024. Nirali contributed in conducting research for the years 2021,2020, and 2019. Nirvi Shah contributed by conducting research for the years 2017 and 2018. Aditii Karthik contributed in conducting research for the years 2014, 2015, and 2016. 
